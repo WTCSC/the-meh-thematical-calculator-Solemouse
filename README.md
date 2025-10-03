@@ -17,3 +17,5 @@ Have a online python compiler or use visual studio code
 Then just copy and paste the code into visual studio or a python compiler
 
 ### Flow chart made
+![flow](https://github.com/WTCSC/the-meh-thematical-calculator-Solemouse/blob/main/Screenshot%20from%202025-10-03%2012-49-28.png)
+
