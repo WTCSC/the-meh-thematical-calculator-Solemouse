@@ -16,6 +16,15 @@ Have a online python compiler or use visual studio code
 
 Then just copy and paste the code into visual studio or a python compiler
 
+#### How to run the tests
+ * Have the calculator file and test file in a folder\
+ * Open terminal and change to the folder
+ * Type in pytest and run it
+ * It should pass all tests
+![tests](https://github.com/WTCSC/the-meh-thematical-calculator-Solemouse/blob/main/Screenshot%20from%202025-10-24%2012-29-32.png)
+
+
 ### Flow chart made
 ![flow](https://github.com/WTCSC/the-meh-thematical-calculator-Solemouse/blob/main/Screenshot%20from%202025-10-03%2012-49-28.png)
+
 
