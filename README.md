@@ -1,6 +1,9 @@
 ## Meh Calculator
 This is a very unenthusiastic calculator, it doesnt like to do work
 
+#### Reduced Version?
+Yes there is a somewhat reduced version, the original is 2029 characters, the reduced is 2017 characters, I tried to reduce the characters even further but it would keep giving me the error handling message when putting in any value.
+
 #### Requirements
 * Python 3.0
 
@@ -26,5 +29,6 @@ Then just copy and paste the code into visual studio or a python compiler
 
 ### Flow chart made
 ![flow](https://github.com/WTCSC/the-meh-thematical-calculator-Solemouse/blob/main/Screenshot%20from%202025-10-03%2012-49-28.png)
+
 
 
