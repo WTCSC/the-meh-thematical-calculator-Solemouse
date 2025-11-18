@@ -16,20 +16,20 @@ if __name__ == "__main__":
     print("1. Are you sure you want to add? \n2. You want to subtract? Really?\n3. Multiply? Ehh, that's fine\n4. No, why would you need division?\n5. Exponents? Make it simple.")
     while True:
         choice = input("Alright, what do you want to do? (1, 2, 3, 4, 5): ")
-        if choice in (1, 2, 3, 4, 5):
+        if choice in ('1', '2', '3', '4', '5'):
             try:
                 num1 = float(input("Hmph, fine. What is your first number, oh mighty user? "))
                 num2 = float(input("If it were me, I would have done something other than choose a second number: "))
             except ValueError:
                 print("Naughty Naughty, you better choose a right option!")
                 continue
-            if choice == 1:
+            if choice == '1':
                 print(f"Alright fine, heres your answer {add(num1, num2)}")
-            elif choice == 2:
+            elif choice == '2':
                 print(f"You sure you want these numbers subtracted? Yes? Fine but I dont want to hear any whining {subtract(num1, num2)}")
-            elif choice == 3:
+            elif choice == '3':
                 print(f"At least it's better than division {multiply(num1, num2)}")
-            elif choice == 4:
+            elif choice == '4':
                 if num2 == 0:
                     print("Nuh uh, no division by 0. Rethink your actions.")
                 else:
